@@ -1,0 +1,50 @@
+= AsciiDoc Test
+
+line1 +
+line2
+
+*bold* _italic_ `monospace`
+
+.PlantUML
+[plantuml]
+--
+class Test {
+	name
+}
+--
+
+TIP: チップ
+
+WARNING: 注意
+
+NOTE: 情報
+
+.テーブル
+[options="header"]
+|=============
+| 1st|2nd| 3rd
+|   1|  2|   3
+|いち| に|さん
+|=============
+
+* A
+** B
+*** C
+**** D
+***** E
+--
+定義:: 定義
+定義:: 定義
+定義:: 定義
+
+[source, cpp]
+----
+class Test {
+	int a;
+};
+----
+
+[quote, attribution, citetitle]
+____
+Hello.
+____
